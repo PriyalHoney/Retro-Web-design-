@@ -40,11 +40,12 @@ html body{
 
     /* element k andr side m space */
     padding: 0 30px;
+    /* padding: 0px; */
 
     border-bottom: 1px solid black;
-    position: relative;
+    position: sticky;
     top: 0px;
-    z-index: 5;
+    z-index: 10;
 }
 
 #nav img{
@@ -300,3 +301,23 @@ font-family: 'Merriweather';
     letter-spacing: -1px;
 }
 
+#page3 {
+    height: 40vh;
+    display: flex;
+    background-color: #C4BCB3;
+}
+
+#page3 h1{
+    margin: 0px 40px;
+    font-size: 250px;
+    width: 80%;
+    background-color: #1C1B19;
+    color: #C2BAB1;
+    letter-spacing: -2px;
+    text-align: center;
+    
+}
+
+#page3 img{
+    margin-right: 20px;
+}
