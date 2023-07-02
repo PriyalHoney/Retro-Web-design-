@@ -13,7 +13,7 @@ const scroll = new LocomotiveScroll({
 var tl = gsap.timeline()
 
 
-tl.to("#main",{
+tl.to("#page1",{
     y: "100vh",
     scale: 0.6,
     duration: 0
@@ -21,13 +21,13 @@ tl.to("#main",{
 
 // 0 sec m page ko neech bhej diya , scale isiliyye kiya ki wo shrik ho jaye 
 
-tl.to("#main",{
+tl.to("#page1",{
     y: "30vh",
     duration: 1,
     delay: 1,
 })
 
-tl.to("#main",{
+tl.to("#page1",{
     y: "0vh",
     rotate: 360,
     scale: 1,

@@ -132,6 +132,14 @@ font-family: 'Merriweather';
 /* font-family: 'PT Serif', serif; */
 }
 
+
+
+#elem1 p{
+    font-size: 17px;
+   font-weight: 100;
+   color: #656565;
+}
+
 #elem1 h4 span{
     background-color:#B63B12;
     color: #C4BCB3;
@@ -140,12 +148,6 @@ font-family: 'Merriweather';
     padding: 4px;
     margin-left: 10px;
     border-radius: 5px;
-}
-
-#elem1 p{
-    font-size: 17px;
-   font-weight: 100;
-   color: #656565;
 }
 
 
@@ -309,15 +311,93 @@ font-family: 'Merriweather';
 
 #page3 h1{
     margin: 0px 40px;
-    font-size: 250px;
+    font-size: 248px;
     width: 80%;
     background-color: #1C1B19;
     color: #C2BAB1;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     text-align: center;
     
 }
 
 #page3 img{
     margin-right: 20px;
+}
+
+#page4 #left-box{
+    display: flex;
+    background-color: #C4BCB3;
+    width: 65vw;
+    height: 50vh;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 20px 35px;
+    /* margin-bottom: 20px; */
+}
+
+#page4 #left-box #box1{
+    height: 100%;
+    width: 46%;
+    margin-top: 30px;
+    border-right: 1px solid #1C1B19;
+    padding-right: 30px;
+}
+
+#page4 #left-box #box1 h2{
+    font-size: 50px;
+    /* font-weight: 120; */
+   
+}
+
+#page4 #left-box #box1 h3{
+    font-size: 32px;
+    font-weight: 19;
+    color: #2f2f2f;
+   margin: 15px 0;
+}
+
+#page4 #left-box #box1 h5{
+    font-size: 19px;
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+#page4 #left-box #box1 h5 span{
+    font-weight: 600;
+}
+
+#page4 #left-box #box2{
+    margin-top: 30px;
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    
+}
+
+#page4 #left-box #box2 #image-div{
+    height: 50%;
+    width: 90%;
+    overflow: hidden;
+}
+#page4 #left-box #box2 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* font-family: 'IM Fell French Canon SC'; */
+font-family: 'Merriweather';
+/* font-family: 'PT Serif', serif; */
+}
+
+#page4 #left-box #box2 p{
+    font-size: 17px;
+   font-weight: 100;
+   color: #656565;
+}
+
+#page5 #image-container img{
+    background-color: #C4BCB3;
+    width: 65vw;
+    height: 90vh;
+    padding: 20px 40px;
+
 }
