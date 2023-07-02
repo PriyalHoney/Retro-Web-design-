@@ -262,7 +262,7 @@ font-family: 'Merriweather';
 
 #page2-left #target p{
     font-size: 20px;
-    color: #1C1B19;
+    color: #656565;
     padding-top: 30px;
  
 }
@@ -283,7 +283,7 @@ font-family: 'Merriweather';
 
 #page2-left p{
     font-size: 20px;
-    color: #1C1B19;
+    color: #656565;
 }
 
 #page2-right{
@@ -324,15 +324,122 @@ font-family: 'Merriweather';
     margin-right: 20px;
 }
 
+#container-p45{
+    background-color: #C4BCB3;
+}
+
+#page4{
+    display: flex;
+   
+}
+
+#page4 #right-box{
+    width: 35vw;
+    height: 50vh;
+   
+    padding:40px 40px  ;
+}
+
+#page4 #right-box h1{
+    font-size: 74px;
+    letter-spacing: -3px;
+}
+
+#page4 #right-box h2{
+    font-size: 110px;
+    letter-spacing: -3px;
+    
+}
+
+#page4 #right-box #caption{
+    display: flex ;
+}
+
+#page4 #right-box #caption span{
+    background-color: #1C1B19;
+    color: #C4BCB3;
+    font-size: 50px;
+    height: 80%;
+    width: 35%;
+    margin: 15px 15px 5px 0px;
+    /* padding-left: 10px; */
+
+    text-align: center  ;
+    
+}
+
+#page4 #right-box #caption p{
+
+    font-size: 26px;
+    color: #656565;
+    padding-top: 10px;
+}
+
+#page4 #right-box #para2 p{
+    font-size: 25px;
+    color: #656565;
+    margin-bottom: 40px;
+}
+
+
+#page4 #right-box p{
+    font-size: 25px;
+    color: #656565;
+}
+
+#page4 #right-box #circle{
+    height: 200px;
+    width: 100%;
+    background-color: #CAC1B6;
+    border: 1px solid #2f2f2f;
+    border-radius: 50%;
+    margin: 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#page4 #right-box #circle h1{
+    font-size: 67px;
+    font-weight: 200;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-33%);
+    transition: all ease 0.8s;
+}
+
+#circle img{
+    height: 60px;
+   transform: translateX(-120%);
+   transition: all ease 0.8s;
+}
+
+#page4 #right-box #circle:hover img{
+    transform: translateX(80%);
+}
+
+#page4 #right-box #circle:hover h1{
+    transform: translateX(100%);
+}
+
+
+
 #page4 #left-box{
     display: flex;
     background-color: #C4BCB3;
-    width: 65vw;
+    width: 70vw;
     height: 50vh;
     /* align-items: center; */
     justify-content: space-between;
     padding: 20px 35px;
     /* margin-bottom: 20px; */
+    
+   
 }
 
 #page4 #left-box #box1{
@@ -398,6 +505,13 @@ font-family: 'Merriweather';
     background-color: #C4BCB3;
     width: 65vw;
     height: 90vh;
-    padding: 20px 40px;
+    padding: 20px 30px;
+    object-fit: cover;
 
+}
+
+#page6{
+    height: 100px;
+    width: 100%;
+    background-color: #C4BCB3;
 }
