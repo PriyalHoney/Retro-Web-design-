@@ -511,7 +511,55 @@ font-family: 'Merriweather';
 }
 
 #page6{
-    height: 100px;
+  padding: 22px 0px;
     width: 100%;
+    background-color: #C4BCB3;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 2px solid #2f2f2f;
+}
+#page6::-webkit-scrollbar{
+    display: none;
+}
+
+#page6 h1{
+    font-size: 90px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    display: inline-block;
+    margin-right: 24px;
+    animation-name: scroll;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+#page6 h1 span{
+    background-color: #2f2f2f;
+    color: #CAC1B6;
+    padding: 0px 13px;
+}
+
+
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 24px));
+    }
+    
+}
+
+#page6:hover h1{
+    animation-play-state: paused;
+}
+
+#page7{
+    height: 20px;
     background-color: #C4BCB3;
 }
